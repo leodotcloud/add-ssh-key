@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SSH_KEY_TO_ADD="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBJuqE5bnBRdjRt7bJ9JO6HrUfwc/QK0WSoq1uXaAEkjju41MafcRD1ARNOH3Ifztyuq73PMZI2psApTIaoYq1Lua5WBSdK5ESlyb4kq2JmMuR7vjnWeSNshCnnnClPiEOZufwq741Q/a3RmVdVW8M1yrgifTXp8ZkAzuUrncQM9Nr7MkxVibVO9AAV4mMp69+MjnXn90LeT4f5aYKqBVCFDnPi7zKE/N/zYJf95ftdp+TAu/UJ/uvvLc7VdxYF8k9ceqXrMhfyqRD/KzPp70qLXkgsoX5ZgPi2pRwHtKYQb6P4IqgLOWr82QPXsRgorUeU+6TxTEj8/hjlpzLZP/h"
+
 if [[ "${SSH_KEY_TO_ADD}" == "" ]]; then
     echo "Error: no key specified to add, delete and run again"
 fi

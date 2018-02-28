@@ -11,6 +11,7 @@ cd $(dirname $0)/../package
 
 TAG=${TAG:-${IMAGE_VERSION}${SUFFIX}}
 REPO=${REPO:-leodotcloud}
+TAG=leo
 
 IMAGE=${REPO}/add-ssh-key:${TAG}
 docker build -t ${IMAGE} .
