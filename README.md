@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: add-ssh-key
-        image: leodotcloud/add-ssh-key:dev
+        image: leodotcloud/add-ssh-key
         imagePullPolicy: Always
         volumeMounts:
         - name: userhomedir
