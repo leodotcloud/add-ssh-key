@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM leodotcloud/swiss-army-knife:v0.3
 
 RUN apt-get update && \
     apt-get install -y \
