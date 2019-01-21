@@ -5,6 +5,6 @@ RUN apt-get update && \
       gosu && \
     rm -rf /var/lib/apt/lists/*
 
-COPY add_ssh_key.sh /usr/bin/
+COPY start.sh add_ssh_key.sh /usr/bin/
 
-CMD ["add_ssh_key.sh"]
+CMD ["start.sh"]

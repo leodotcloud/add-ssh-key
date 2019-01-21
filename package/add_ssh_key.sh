@@ -32,6 +32,3 @@ if [[ $? -ne 0 ]]; then
 else
     echo "Key already added"
 fi
-
-echo "Going to sleep forever, if you want, you may delete this now"
-sleep infinity
