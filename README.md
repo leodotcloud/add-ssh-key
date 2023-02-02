@@ -84,4 +84,10 @@ spec:
         value: "true"
         operator: "Equal"
         effect: "NoExecute"
+      - key: "node-role.kubernetes.io/control-plane"
+        operator: "Equal"
+        effect: "NoSchedule"
+      - key: "node-role.kubernetes.io/etcd"
+        operator: "Equal"
+        effect: "NoExecute"
 ```
